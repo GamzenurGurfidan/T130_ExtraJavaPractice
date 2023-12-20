@@ -1,4 +1,4 @@
-package day07_GeometrikSekiller;
+package day07;
 
 public class S20_Dikdortgen extends S18_Sekil {
 

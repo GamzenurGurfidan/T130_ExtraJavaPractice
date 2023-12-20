@@ -1,4 +1,4 @@
-package day07_GeometrikSekiller;
+package day07;
 
 public class S21_Kare extends S20_Dikdortgen {
     public S21_Kare(double uzunKenar, double kisaKenar) {

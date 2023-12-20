@@ -1,6 +1,4 @@
-package day07_GeometrikSekiller;
-
-import java.awt.*;
+package day07;
 
 public class S23_Runner {
     public static void main(String[] args) {
