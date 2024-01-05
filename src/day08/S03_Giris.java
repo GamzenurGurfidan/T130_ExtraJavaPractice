@@ -22,7 +22,7 @@ public class S03_Giris extends S02_Islemler {
         urunler.put(105, urun5);
 
         System.out.println("********** E-KURABİYE **********");
-        System.out.println("Yapmak istediğiniz işlemi seçiniz." +
+        System.out.println("Yapmak istediğiniz işlemi seçiniz.\n" +
                 " 1. Urun listeleme\n" +
                 " 2. Alisveris\n" +
                 " 3. Sepet Görüntüle\n" +
@@ -46,7 +46,7 @@ public class S03_Giris extends S02_Islemler {
                     menu();
                 case 4:
                     odeme();
-                    menu();
+
                 default:
                     System.out.println("Hatali giriş yaptınız");
                     menu();
@@ -58,6 +58,10 @@ public class S03_Giris extends S02_Islemler {
 
             if (scanner.next().equalsIgnoreCase("Q")){
                 System.out.println("Bizi tercih ettiğiniz için teşekkür ederiz.");
+                System.exit(0);
+            }else {
+                System.out.println("Hatali giris yaptınız, tekrar deneyiniz");
+                menu();
             }
 
         }
